@@ -1,53 +1,19 @@
-<header>
-    <div class="container">
-        <div class="content-wrap">
-            <div fxFlexFill class="navbar" [fxLayout]="column" fxLayoutWrap="wrap">
-                <div fxFlex="75"class="logo">
-                    <img ngStyle.gt-sm="max-width:198px;" src="../assets/wandersuite-logo.png"/>
-                </div>
-                <div fxFlex="25">
-                    <button class="btn">Login</button>
-                    <button class="btn red">Register</button>
-                </div>
-            </div>
-        </div>
-    </div>
-</header>
+<header-section></header-section>
 <section class="main-content">
     <div class="container">
         <div class="content-wrap">
-            <div fxFlexFill [fxLayout]="column" fxLayoutWrap="wrap">
-                <div fxFlex="33">
-                    <img src="../assets/wandersuite-mobile.png">
+            <div fxFlexFill [fxLayout]="column" fxLayoutWrap="wrap" ngClass="main-content-wrap">
+                <div fxFlex.xs="100" fxFlex.gt-xs="34">
+                    <img src="../assets/wandersuite-mobile.png" alt="Wandersuite Mobile App">
                 </div>
-                <div fxFlex="67">  
+                <div fxFlex.xs="100" fxFlex.gt-xs="66">  
                     <div class="home-content-wrap">      
                         <h1>Consectetur adipisicing elit, sed do eiusmod tempor incididunt</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna wirl aliqua. Up exlaborum incididunt.</p>
                         <button class="btn red">Get Started</button>
                     </div>
                 </div>
-                <!--<div class="partner-list" fxFlex="100" style="background:blue; justify-content: center">
-                    <div fxFlex style="background: red;">
-                        <img src="../assets/hotel-logo1.png">
-                    </div>
-                    <div fxFlex style="background: yellow">
-                         <img src="../assets/hotel-logo2.png">
-                    </div>
-                    <div fxFlex style="background: green">
-                        <img src="../assets/hotel-logo3.png">
-                    </div>
-                    <div fxFlex style="background: red">
-                        <img src="../assets/hotel-logo4.png">
-                    </div>
-                    <div fxFlex style="background: yellow">
-                        <img src="../assets/hotel-logo5.png">
-                    </div>
-                    <div fxFlex style="background: green">
-                        <img src="../assets/hotel-logo6.png">
-                    </div>
-                </div>-->
-                <div class="partner-list" fxFlex="100">
+                <!--<div class="partner-list" fxFlex="100">
                     <ul>
                         <li>
                             <img src="../assets/hotel-logo1.png">
@@ -69,65 +35,9 @@
                             <img src="../assets/hotel-logo6.png">
                         </li>
                     </ul>
-                </div>
+                </div>-->
             </div>
         </div>
     </div>
 </section>
-<footer>
-     <div class="container">
-         <div class="content-wrap">
-              <div class="footer-flex" fxFlexFill [fxLayout]="column" fxLayoutWrap="wrap">
-                <div fxFlex="20">
-                    <img  ngStyle.gt-sm="max-width:198px;margin: 80px 30px;" src="../assets/wandersuite-logo-white.png"/>
-                </div>
-                <div fxFlex="40">
-                    <div class="border-right">
-                        <div fxFlex="100" fxFlexFill [fxLayout]="column" fxLayoutWrap="wrap"> 
-                            <div fxFlex="60" class="footer-address">
-                                <span>Head Office Address:</span>
-                                <p>Cityloft Sudirman Suite 2311<br>
-                                    Jl. KH Mas Mansyur No. 121<br>
-                                    Jakarta 10220
-                                </p>
-                            </div>
-                            <div fxFlex="40" class="footer-phone">
-                                <span>Phone Number:</span>
-                                <p>+62-21-255-8945</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div fxFlex="20">
-                    <div class="social-media-widget" fxLayoutWrap="wrap">
-                        <div fxFlex="100"><span>Follow Lobangking:</span></div>
-                        <div fxFlex="100" style="justify-content: flex-start" fxLayoutGap="10px">
-                            <div fxFlex="20">
-                                <a href="#"><div class="bg-fb"></div></a>
-                            </div>
-                            <div fxFlex="20">
-                                <a href="#"><div class="bg-tw"></div></a>
-                            </div>
-                            <div fxFlex="20">
-                                <a href="#"><div class="bg-email"></div></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div fxFlex="20">
-                    <div class="social-media-widget" fxLayoutWrap="wrap">
-                        <div fxFlex="100"><span>Get the Wandersuite Mobile App</span></div>
-                        <div fxFlex="100">
-                            <div fxFlex="50">
-                                <a href="#"><div class="bg-playstore"></div></a>
-                            </div>
-                            <div fxFlex="50">
-                                <a href="#"><div class="bg-appstore"></div></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-              </div>
-         </div>
-     </div>
-</footer>
+<footer-section></footer-section>

@@ -1,0 +1,22 @@
+header{
+    width: 100%;
+    background:#FFFFFF;
+    position: fixed;
+    z-index: 100;
+    -webkit-box-shadow: 0 0 4px 0 rgba(0,0,0,0.12), 0 4px 4px 0 rgba(0,0,0,0.08);
+    -moz-box-shadow: 0 0 4px 0 rgba(0,0,0,0.12), 0 4px 4px 0 rgba(0,0,0,0.08);
+    box-shadow:  0 0 4px 0 rgba(0,0,0,0.12), 0 4px 4px 0 rgba(0,0,0,0.08);
+}
+
+.navbar{
+    height: 60px !important;
+}
+
+.logo img{
+    margin: 14px 0;
+}
+
+.navbar .btn{
+    margin: 12px 0 12px 20px;
+    float: right;
+}

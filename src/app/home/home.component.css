@@ -1,0 +1,85 @@
+/*based on sketch*/
+/*.main-content img{
+    float:right;
+    margin:66px 0;
+}*/
+
+ /*based on prototype*/
+.main-content img{
+    float:right;
+    height: auto;
+    max-width: 250px;
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    .main-content img{
+        float:none;
+    }
+
+    .main-content-wrap > div:nth-child(1){
+        text-align: center;
+    }
+
+}
+
+
+/*.main-content h1 {
+    font-weight: 500;
+    font-size: 24px;
+    color: #A51D32;
+    line-height: 30px;
+}*/
+
+.main-content-wrap{
+    padding: 66px 0 94px 0;
+}
+
+.home-content-wrap{
+    margin: 25% 0 0 30px;
+    max-width: 603px;
+}   
+
+@media (min-width: 830px) {
+  .home-content-wrap{
+      margin-left: 86px;
+      margin-top:137px;
+  }
+}
+
+
+.home-content-wrap .btn{
+    margin-top:12px;
+}
+
+/*.partner-list{
+    height: 140px;
+    text-align: center;
+}*/
+
+/*With List*/
+/*.partner-list ul{
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.partner-list li{
+    list-style: none;
+    display: inline-block;
+    padding: 25px 0;
+    margin-right: 75px;
+}
+
+.partner-list li:last-child{
+    margin-right: 0;
+}
+
+.partner-list img{
+    margin: 0;
+    float: none;
+    height: 60px;
+}*/
+
+
+
